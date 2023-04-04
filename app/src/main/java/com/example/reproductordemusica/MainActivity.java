@@ -125,9 +125,9 @@ private void playAudio() {
 
     private void stopAudio() {
         if (mediaPlayer.isPlaying()) {
-           mediaPlayer.stop();
-            mediaPlayer.seekTo(0);
+            mediaPlayer.stop();
             savedPosition =0;
+
         }
         else{
             Toast.makeText(this, "No puedes parar un audio", Toast.LENGTH_SHORT).show();
