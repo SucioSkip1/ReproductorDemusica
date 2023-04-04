@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         Objects.requireNonNull(getSupportActionBar()).hide();
         mediaPlayer = new MediaPlayer();
         
-        
+        //f
         
         try {
             mediaPlayer.setDataSource(path);
