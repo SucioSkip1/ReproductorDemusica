@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     private MediaPlayer mediaPlayer;
     private int playback=0;
     private int savedPosition=0;
-    private String path = "/sdcard/changes.mp3";
+    private final String path = "/sdcard/changes.mp3";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
